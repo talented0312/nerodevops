@@ -66,7 +66,7 @@ const Home = () => {
                   <div>
                     <img src={DevOps} alt="icon" className="devconsalt" />
                     <span className="tapLetter">Developer</span>
-                    <span className="tapname">Noah Sim</span>
+                    <span className="tapname">Lucas McCae</span>
                   </div>
                   {/* <div>
                     <img src={Developer} alt="icon" className="devconsalt" />
