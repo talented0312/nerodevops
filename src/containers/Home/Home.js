@@ -4,7 +4,7 @@ import CommonHeader from "../../components/Header/CommonHeader";
 import StartupBreeders from "../../components/StartupBreeders";
 import { Col, Container, Row } from "react-bootstrap";
 import MainFooter from "../mainFooter/MainFooter";
-import SponsoredHeadlines from "./sponsoredHeadlines";
+// import SponsoredHeadlines from "./sponsoredHeadlines";
 import Designer from "../../assets/img/designer.jpg";
 import Developer from "../../assets/img/developer.png";
 import Linkedin from "../../components/Linkedin";
@@ -26,7 +26,7 @@ const Home = () => {
           <Container style={{ width: "1550px!important" }}>
             <Linkedin />
           </Container>
-          <div className="spring-flex">
+          {/* <div className="spring-flex">
             <Fade direction="up">
               <div className="spring-sponsored-role">
                 <p className="spring-sponsored-headline">
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
           <Container style={{ width: "1550px!important" }}>
             <SponsoredHeadlines />
-          </Container>
+          </Container> */}
         </div>
         <Container fluid>
           <Row className="mx-0 mb-5">
